@@ -1,0 +1,56 @@
+{
+  "name": "sales",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@devexpress/dx-react-core": "^2.6.4",
+    "@devexpress/dx-react-scheduler": "^2.6.4",
+    "@devexpress/dx-react-scheduler-material-ui": "^2.6.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@hapi/joi": "^17.1.1",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "canvasjs": "^1.8.3",
+    "chart.js": "^2.9.3",
+    "config": "^3.3.1",
+    "fontsource-roboto": "^2.1.4",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "react": "^16.13.1",
+    "react-calendar": "^3.1.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-csv-downloader": "^2.0.0",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

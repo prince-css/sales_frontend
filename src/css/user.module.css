@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.allWrapper {
+	width: 100vw;
+	min-height: 100vh;
+	position: relative;
+	background-color: rgb(230, 230, 230);
+}
+.body {
+	margin-left: 250px;
+	margin-right: 20vw;
+	height: 100%;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+.body_mb {
+	width: 100vw;
+	height: 100%;
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+}

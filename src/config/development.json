@@ -1,0 +1,6 @@
+{
+	"userAPI": "http://localhost:4000/sales/api/users/",
+	"loginAPI": "http://localhost:4000/sales/api/login/",
+	"imsFormatAPI": "http://localhost:4000/sales/api/imsFormat/",
+	"imsAPI": "http://localhost:4000/sales/api/ims/"
+}

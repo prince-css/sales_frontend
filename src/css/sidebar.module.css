@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* media quieries have to be added */
+.sidebar_container_mb,
+.sidebar_container {
+	position: fixed;
+	color: white;
+	width: 250px;
+	height: 100vh;
+
+	background-color: #34222e;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	align-items: center;
+	box-shadow: 3px 0px 24px 3px rgba(0, 0, 0, 0.75);
+	background-size: 30px 30px;
+	background-image: radial-gradient(
+		circle,
+		rgb(226, 67, 75, 0.3) 1px,
+		rgba(0, 0, 0, 0) 1px
+	);
+	animation-name: sidebar_on;
+	animation-duration: 250ms;
+}
+.sidebar_container_mb {
+	overflow-y: scroll;
+	width: 100vw;
+}
+.sidebar_container_hide {
+	display: none;
+}
+@keyframes sidebar_on {
+	from {
+		width: 0vw;
+	}
+	to {
+		width: 100vw;
+	}
+}
+
+.side_img {
+	margin-top: 10%;
+}
+a {
+	color: white;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+}
+a:hover {
+	color: #e2434b;
+	text-decoration: none;
+}
+.dropdown_container {
+	display: none;
+	/* background-color: #66445a; */
+	transition: all ease-in-out 1s;
+}
+
+.sidebar_ul {
+	width: 100%;
+}
+
+.sidebar_li {
+	list-style-type: none;
+	/* border-bottom: 1px solid #e2434b; */
+	padding: 0.5rem 3rem;
+	padding-right: 0;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	transition: all ease-in-out 250ms;
+}
+.dropdown_li {
+	list-style-type: none;
+	/* border-bottom: 1px solid #e2434b; */
+	padding: 0.5rem 5rem;
+	padding-right: 0;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	transition: all ease-in-out 250ms;
+}
+.sidebar_li:hover {
+	/* background: linear-gradient(to left, #34222e 20%, #e2434b); */
+	/* padding: 1rem 5rem; */
+	color: #e2434b;
+	padding-right: 0;
+	transition: all ease-in-out 250ms;
+}
+.dropdown_li:hover {
+	/* background-color: #5e292c; */
+	color: #e2434b;
+	padding-left: 5rem;
+	padding-right: 0;
+}
+.sidebar_li:active {
+	background-color: #e2434b;
+}
+.active {
+	background-color: #e2434b;
+}
+
+.list_text {
+	padding-left: 1rem;
+}
+.sidebar_li_selected {
+	padding: 0.5rem 3rem;
+	padding-right: 0;
+	display: flex;
+	/* justify-content: center; */
+	align-items: center;
+	background-color: rgba(167, 52, 105, 0.3);
+	border-right: 5px solid rgba(226, 67, 75, 1);
+}
+.dropdown_li_selected {
+	padding: 0.5rem 3rem;
+	padding-left: 5rem;
+	padding-right: 0;
+	background-color: rgba(167, 52, 105, 0.3);
+	border-right: 5px solid rgba(226, 67, 75, 1);
+	transition: all ease-in-out 250ms;
+}

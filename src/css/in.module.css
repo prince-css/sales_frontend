@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.in_bg {
+	background-image: url("../gimage/Taieri.svg");
+	background-position: center;
+	background-size: cover;
+	max-width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoSection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.in_logo {
+	animation-name: logoAnimation;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes logoAnimation {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.in_form_container {
+	background-color: rgba(245, 245, 245, 0.95);
+	width: 70vw;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	box-shadow: 0px 0px 20px 2px rgb(126, 126, 126);
+}
+.in_form_container_mb {
+	background-color: rgba(245, 245, 245, 0.95);
+	width: 100vw;
+	padding-top: 20%;
+	padding-bottom: 20%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.3rem;
+	box-shadow: 0px 0px 10px 2px rgb(126, 126, 126);
+}
+.reg_form_extra {
+	margin-top: auto;
+	padding-top: auto;
+}
+
+.in_form {
+	width: 80%;
+}
+.in_btnBox {
+	display: flex;
+	justify-content: center;
+}
+
+.in_btn {
+	width: 10rem;
+	padding: 2% 4%;
+	background-color: #34222e;
+	border-color: #34222e;
+	transform: scale(0.9);
+	/* margin-right: 10%; */
+}
+
+.in_btn:active,
+.in_btn:hover {
+	background-color: #e2434b;
+	border-color: #e2434b;
+}
+
+/* @media (max-width: 600px){
+    .in_form_container{
+        width: 100vw;
+        background-color: aquamarine;
+    }
+} */

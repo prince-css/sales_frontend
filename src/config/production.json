@@ -1,0 +1,6 @@
+{
+	"userAPI": "https://protected-falls-26605.herokuapp.com/sales/api/users/",
+	"loginAPI": "https://protected-falls-26605.herokuapp.com/sales/api/login/",
+	"imsFormatAPI": "https://protected-falls-26605.herokuapp.com/sales/api/imsFormat/",
+	"imsAPI": "https://protected-falls-26605.herokuapp.com/sales/api/ims/"
+}

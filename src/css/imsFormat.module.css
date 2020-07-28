@@ -1,0 +1,50 @@
+.imsFormat_wrapper {
+	background-color: rgb(230, 230, 230);
+	width: 500px;
+	margin: 2% 1%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	overflow-x: scroll;
+}
+.ims_table {
+	width: 500px;
+}
+.countBtn {
+	position: fixed;
+	height: 10vmax;
+	width: 10vmax;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* padding: 3rem 5rem; */
+	background-color: #34222e;
+	border: 5px solid #e2434b;
+	border-radius: 50%;
+	opacity: 0.2;
+	color: white;
+	margin: 2px;
+	z-index: 2;
+}
+
+.countBtn:hover {
+	background-color: #34222e;
+	color: white;
+	box-shadow: 0px 0px 20px 3px black;
+	opacity: 0.9;
+}
+
+.format_btn {
+	height: 4rem;
+	width: 10rem;
+	background-color: #34222e;
+	border: none;
+}
+.format_btn:hover {
+	background-color: #e2434b;
+}

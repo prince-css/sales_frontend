@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.910fca4c.chunk.css",
+    "main.js": "/static/js/main.442014d2.chunk.js",
+    "main.js.map": "/static/js/main.442014d2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.af1f29a3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.af1f29a3.js.map",
+    "static/css/2.e5a518e7.chunk.css": "/static/css/2.e5a518e7.chunk.css",
+    "static/js/2.d313790f.chunk.js": "/static/js/2.d313790f.chunk.js",
+    "static/js/2.d313790f.chunk.js.map": "/static/js/2.d313790f.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f00705d075bdc7881030fa05810a1dcd.js": "/precache-manifest.f00705d075bdc7881030fa05810a1dcd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.e5a518e7.chunk.css.map": "/static/css/2.e5a518e7.chunk.css.map",
+    "static/css/main.910fca4c.chunk.css.map": "/static/css/main.910fca4c.chunk.css.map",
+    "static/js/2.d313790f.chunk.js.LICENSE.txt": "/static/js/2.d313790f.chunk.js.LICENSE.txt",
+    "static/media/in.module.css": "/static/media/Taieri.cf3c80a0.svg",
+    "static/media/dp.svg": "/static/media/dp.3845a126.svg",
+    "static/media/logo_pink.svg": "/static/media/logo_pink.8f12f64a.svg",
+    "static/media/notFound.module.css": "/static/media/notFound.e5cb2add.svg",
+    "static/media/verify.svg": "/static/media/verify.bee52d4a.svg",
+    "static/media/wave.svg": "/static/media/wave.7c692abe.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af1f29a3.js",
+    "static/css/2.e5a518e7.chunk.css",
+    "static/js/2.d313790f.chunk.js",
+    "static/css/main.910fca4c.chunk.css",
+    "static/js/main.442014d2.chunk.js"
+  ]
+}
