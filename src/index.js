@@ -5,6 +5,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 console.log(process.env.REACT_APP_NAME);
+console.log("App is up and running...");
 ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
