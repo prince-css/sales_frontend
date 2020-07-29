@@ -48,11 +48,11 @@ function VerifyPage(props) {
 							className={styles.hero_img}
 							alt="..."
 						></img>
-						<h3>Registration Completed !!!</h3>
+						<h3>Approval Needed !!!</h3>
 						<p>
 							<small>
 								Please wait for your supervisor to verify your
-								account
+								account.
 							</small>
 						</p>
 					</div>

@@ -217,7 +217,7 @@ function Register(props) {
 					onSubmit={(e) => submitHandlerTop(e)}
 					className={styles.in_form}
 				>
-					<div className="form-row">
+					<div className={`form-row ${styles.in_row}`}>
 						<div className="col-md-6 mb-3">
 							<label htmlFor="firstName">First name</label>
 							<input
@@ -265,7 +265,7 @@ function Register(props) {
 						</div>
 					</div>
 
-					<div className="form-row">
+					<div className={`form-row ${styles.in_row}`}>
 						<div className="col-md-6 mb-3">
 							<label htmlFor="email">Email</label>
 							<input
@@ -312,7 +312,7 @@ function Register(props) {
 						</div>
 					</div>
 
-					<div className="form-row">
+					<div className={`form-row ${styles.in_row}`}>
 						<div className="col-md-6 mb-3">
 							<label htmlFor="password">Password</label>
 							<input
@@ -361,7 +361,7 @@ function Register(props) {
 						</div>
 					</div>
 
-					<div className="form-row">
+					<div className={`form-row ${styles.in_row}`}>
 						<div className="col-md-3 mb-3">
 							<label htmlFor="designation">Designation</label>
 							<select
@@ -451,11 +451,27 @@ function Register(props) {
 							{data.error.server}
 						</div>
 					)}
+					<p className={styles.in_terms}>
+						By clicking Sign Up, you agree to our{" "}
+						<a href="#" className={styles.in_link}>
+							Terms
+						</a>
+						,
+						<a href="#" className={styles.in_link}>
+							Data Policy
+						</a>
+						and
+						<a href="#" className={styles.in_link}>
+							Cookie Policy
+						</a>
+						. You may receive SMS notifications from us and can opt
+						out at any time.
+					</p>
 					<button
 						className={`btn btn-primary ${styles.in_btn}`}
 						type="submit"
 					>
-						Register
+						Sign Up
 					</button>
 				</form>
 			</div>

@@ -96,7 +96,7 @@ function Login(props) {
 					className={styles.in_form}
 					onSubmit={(e) => submitHandlerTop(e)}
 				>
-					<div className="form-group row">
+					<div className={`form-group row ${styles.in_row}`}>
 						<label
 							htmlFor="email"
 							className="col-sm-2 col-form-label"
@@ -121,7 +121,7 @@ function Login(props) {
 							)}
 						</div>
 					</div>
-					<div className="form-group row">
+					<div className={`form-group row ${styles.in_row}`}>
 						<label
 							htmlFor="password"
 							className="col-sm-2 col-form-label"

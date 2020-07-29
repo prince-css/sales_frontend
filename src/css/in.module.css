@@ -34,6 +34,11 @@
 		transform: rotate(360deg);
 	}
 }
+.in_row {
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
 
 .in_form_container {
 	background-color: rgba(245, 245, 245, 0.95);
@@ -65,9 +70,24 @@
 }
 
 .in_form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	width: 80%;
 }
+.in_terms {
+	text-align: center;
+	text-justify: auto;
+	font-size: x-small;
+	color: grey;
+}
+.in_link {
+	text-decoration: none;
+	color: #e2434b;
+}
 .in_btnBox {
+	margin: 0;
 	display: flex;
 	justify-content: center;
 }
