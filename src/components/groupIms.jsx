@@ -24,7 +24,7 @@ function GroupIms(props) {
 
 	const loadSR = () => {
 		const card = [];
-
+		console.log(fetchedData.srNumber.length);
 		fetchedData.srNumber.map((sr) => {
 			let isSubmitted = false;
 			fetchedData.submittedSR.map((subSR) => {
@@ -68,7 +68,7 @@ function GroupIms(props) {
 				</div>
 			);
 		});
-
+		console.log(fetchedData.srNumber, fetchedData.submittedSR);
 		return card;
 	};
 
